@@ -4,13 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-gray-900 text-gray-300 pt-16 pb-8 md:pb-10 md:pt-20 relative">
-      <div
-        className="absolute top-0 left-0 w-full md:-top-[5rem]"
-        style={{ transform: "rotateX(180deg)" }}
-      >
-        <Wave />
-      </div>
+    <footer className="w-full bg-gray-900 text-gray-300 py-10 md:py-14 relative">
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           <div className="space-y-3">
