@@ -1,14 +1,15 @@
-import React from 'react'
-import Component from './_comp/temp'
+import Feature from "./_comp/feature";
+import Footer from "./_comp/footer";
+import Hero from "./_comp/hero";
 
 const Home = () => {
   return (
     <main>
-      <Component />
+      <Hero />
+      <Feature />
+      <Footer />
     </main>
-  )
-}
+  );
+};
 
-
-
-export default Home
+export default Home;
